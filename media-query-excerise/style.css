@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+    .card{
+        border: 1px solid rebeccapurple;
+    background-color: yellow;
+}
+@media screen and (min-width: 768px) {
+    .card{
+        border: 1px solid rebeccapurple;
+    background-color: yellow;
+}
+.card-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+    border: 1px solid rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+

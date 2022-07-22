@@ -1,0 +1,123 @@
+
+
+
+body{
+    font-family: 'Open Sans';
+    background-color: #f9fafc;
+}
+
+
+
+button{
+    
+    border: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 15%;
+    width: 98%;
+    padding: 12px 5px 12px 5px
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a:link, a:visited {
+background-color: none;
+color: #69696a;
+padding: 9px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover, a:active {
+color: #fff;
+}
+
+
+
+footer{
+    background-color: 
+    position: fixed;
+    display: flex;
+
+}
+.navbottom{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    position: fixed;
+    background-color:rgba(247, 193, 162, 0.7); ;
+    bottom: 0%;
+    width: 100%;
+}
+
+.navbottom a{
+float: right;
+display: block;
+text-align: center;
+padding: 1px 16px;
+}
+
+.dotone{
+
+    position: left;
+    height: 300px;
+    width: 300px;
+    background-color:rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dottwo{
+    position: bottom;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dotthree{
+    position: right;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dots{
+    display:none ;
+}
+
+
+@media screen and (min-width: 768px) {
+    #parent{
+        display: flex;
+        flex-direction: row;
+    }
+    #nav{
+        display: flex;
+        
+    }
+    header{
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+
+    #call{
+        width: 50%;
+    }
+    P{
+        width: 50%;
+    }
+  
+  .dots{
+    display: flex;
+  }
+}
+
+ 
+  
